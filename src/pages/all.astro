@@ -13,13 +13,13 @@ const routes = getMemberPagesRoutes();
         routes.map((data) => (
           <li>
           <a
-            href={`${DOMAIN}/${data.params.alias}/${data.params.page}`}
+            href={`/${data.params.alias}/${data.params.page}`}
           >
             {data.params.alias + '/' + data.params.page}
           </a>
           </li>
         ))
       }
-    </ul>
+    </ul>…
   </section>
 </MainPage>
